@@ -1,0 +1,32 @@
+.product {
+    position: relative;
+    padding: 5px;
+    .product-text{
+        position: absolute;
+        bottom: -1rem;
+        z-index: 150;
+        color: aliceblue;
+        padding: 2.5rem;
+        font-size: x-large;
+        color: white;
+	    font-size: 30px;
+	    text-shadow: -1px 1px 0 #000,
+				
+    }
+    .product-price{
+        position: absolute;
+        bottom: -2.5rem;
+        z-index: 150;
+        color: aliceblue;
+        padding: 2.5rem;
+        font-size: x-large;
+        text-shadow: -1px 1px 0 #000,
+
+    }
+    .product-image {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        max-width: 25rem;
+    }
+}

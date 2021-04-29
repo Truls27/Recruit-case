@@ -1,0 +1,14 @@
+.product-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+.search {
+    left: 6rem;
+    top: 3rem;
+    position: relative;
+}

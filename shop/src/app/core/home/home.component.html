@@ -1,0 +1,18 @@
+<app-banner
+    [Image]="bannerImage"
+    [size]="'medium'"
+    (bannerClicked)="$event">
+</app-banner>
+
+<app-search-bar
+    class="search"
+    [placeholder]="'Search products'"
+    (search)="onSearchOptions($event)">
+</app-search-bar>
+
+<app-product-list 
+    class="product-list"
+    [products]="products$ | async">
+</app-product-list>
+    
+

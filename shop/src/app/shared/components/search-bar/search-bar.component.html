@@ -1,0 +1,13 @@
+<div class="container--search">
+    <input
+      type="text"
+      name="filterOptionSearch"
+      id="filterOptionSearch"
+      class="filter--search"
+      [placeholder]="placeholder"
+      [formControl]="searchFormControl"
+    />
+    <button class="search--clear" (click)="onClear()">
+      {{ clearIcon }}
+    </button>
+</div>
